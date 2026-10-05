@@ -106,3 +106,28 @@ npx playwright install chromium && npm run test:e2e --prefix frontend   # option
   (change with `PORT=4001 npm start`, then update the proxy target in `frontend/vite.config.js`).
 - **Port 5173 busy** — stop the other Vite process or run `npm run dev -- --port 5174` in `frontend/`.
 - **Want a clean slate** — click *Reset sample data*, or stop the backend and delete `backend/data/db.json`.
+
+
+## Project Screenshots
+
+### Dashboard
+<img width="1916" height="1136" alt="image" src="https://github.com/user-attachments/assets/f7389361-2f46-412a-8f13-11d939933f96" />
+
+### Add Product
+<img width="1917" height="1141" alt="image" src="https://github.com/user-attachments/assets/b84e8a9a-96dc-4ee6-8742-52866d741878" />
+
+
+### Products
+<img width="1917" height="1132" alt="image" src="https://github.com/user-attachments/assets/613f380e-455d-4ba8-b73c-0cf3f943c287" />
+
+### WooCommerce sync
+<img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/4e6e0e32-fd44-49c7-906b-e958d30f71c4" />
+
+
+
+##  Contact
+
+For questions, feedback, or collaborations:
+
+- 📧 Email: vaishnaviparodkar@gmail.com
+- 🐙 GitHub: [@vaishnavi-parodkar](https://github.com/vaishnavi-parodkar)
