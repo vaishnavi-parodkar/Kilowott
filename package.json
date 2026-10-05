@@ -1,0 +1,19 @@
+{
+  "name": "pim-woocommerce-integration",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Woo PIM: React frontend + Express backend (simulated WooCommerce store)",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently -k -n backend,frontend -c cyan,magenta \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start:backend": "npm start --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm test --prefix backend && npm test --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

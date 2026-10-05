@@ -1,0 +1,18 @@
+{
+  "name": "woo-pim-backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Small Express API for the Woo PIM: simulated WooCommerce REST store + catalog persistence",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
